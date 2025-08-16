@@ -5,7 +5,7 @@ Allows a user to execute a limited set of SQL queries directly against the datab
 Customization zip in the Install folder
 
 # Usage
-Write queries in the Query text area and click "Run Query" to execute the query. Results will be returned in a table below the query area.
+Write queries in the Query text area and click "Run Query" to execute the query. Results will be returned in a table below the query area. Really useful for debugging real data, when GIs don't quite give you the control you need.
 
 # Security
 Since this customization allows direct SQL execution, it should be used with caution. Ensure that only trusted users have access to this functionality. It is recommended to limit the queries that can be executed to prevent potential security risks. An attempt is made to sanitise SQL however this is for testing purposes alone
